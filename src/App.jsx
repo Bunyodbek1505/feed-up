@@ -1,7 +1,7 @@
 import './App.css'
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './pages/home.jsx'
+import Home from './pages/Home.jsx'
 import Bizhaqimizda from './pages/Bizhaqimizda.jsx'
 import Yangiliklar from './pages/Yangiliklar.jsx'
 import Ishorinlari from './pages/Ishorinlari.jsx'
@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home/>} />
         <Route path='/bizhaqimizda' element={<Bizhaqimizda />} />
         <Route path='/yangiliklar' element={<Yangiliklar />} />
         <Route path='/ishorinlari' element={<Ishorinlari />} />
